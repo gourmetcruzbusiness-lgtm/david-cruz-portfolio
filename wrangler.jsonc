@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "david-cruz-portfolio",
+  "compatibility_date": "2026-11-11",
+  "assets": {
+    "directory": "."
+  }
+}
