@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -441,7 +442,7 @@ footer {
 .ms-gallery-columns {
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
-  gap: 0;
+  gap: 6px;
   align-items: start;
 }
 
@@ -449,6 +450,7 @@ footer {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  gap: 6px;
 }
 
 .ms-gallery-column img,
@@ -468,8 +470,9 @@ footer {
 .ms-gallery-row {
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
-  gap: 0;
+  gap: 6px;
   align-items: start;
+  margin-top: 6px;
 }
 
 /* NO MATTER HOW YOU GET HOME */
@@ -477,7 +480,7 @@ footer {
 .ms-gallery {
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
-  gap: 0;
+  gap: 6px;
   align-items: start;
 }
 
