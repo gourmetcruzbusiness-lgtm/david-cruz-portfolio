@@ -437,7 +437,7 @@ footer {
   margin: 0 0 5px;
 }
 
-/* MASONRY GALLERIES */
+/* EXISTING MASONRY GALLERIES */
 
 .ms-gallery-columns {
   display: grid;
@@ -482,6 +482,47 @@ footer {
   grid-template-columns: repeat(2,minmax(0,1fr));
   gap: 6px;
   align-items: start;
+}
+
+/* DOODLE CITY GALLERY */
+
+.doodle-gallery-columns {
+  display: grid;
+  grid-template-columns: 1.0683fr 1fr;
+  gap: 6px;
+  align-items: start;
+}
+
+.doodle-gallery-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 6px;
+}
+
+.doodle-gallery-column img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.doodle-gallery-wide {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.doodle-gallery-wide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 /* MOBILE LAYOUT */
@@ -577,5 +618,10 @@ footer {
 
   .ms-gallery {
     grid-template-columns: 1fr;
+  }
+
+  /* Keep Doodle City in two columns on mobile too */
+  .doodle-gallery-columns {
+    grid-template-columns: 1.0683fr 1fr;
   }
 }
